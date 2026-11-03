@@ -5,27 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>炒鸡坤 · 首页</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-[#fafafa] text-[#222] antialiased">
 
-    <!-- 导航：4 个页面各写一遍（Day 6 会讲为什么要重复） -->
-    <nav class="nav">
-        <a class="brand" href="index.html">炒鸡坤</a>
-        <div class="links">
-            <a href="index.html" class="active">首页</a>
-            <a href="works.html">作品</a>
-            <a href="about.html">关于</a>
-            <a href="contact.html">联系</a>
+    <!-- 导航 -->
+    <nav class="max-w-4xl mx-auto px-6 py-6 flex items-center justify-between border-b border-gray-200">
+        <a href="index.html" class="text-lg font-bold tracking-wide">炒鸡坤</a>
+        <div class="flex gap-7 text-sm text-gray-500">
+            <a href="index.html" class="text-black font-semibold">首页</a>
+            <a href="works.html" class="hover:text-black transition-colors">作品</a>
+            <a href="about.html" class="hover:text-black transition-colors">关于</a>
+            <a href="contact.html" class="hover:text-black transition-colors">联系</a>
         </div>
     </nav>
 
-    <main class="page">
-        <h1>我在学做网页</h1>
-        <p>前端初学者。2026 年 10 月开始，一个人从零写起。</p>
-        <p>目前做完了两个项目，正在做第三个。</p>
-        <p class="gap">
-            <a class="btn" href="works.html">看我的作品 →</a>
+    <!-- Hero -->
+    <main class="max-w-4xl mx-auto px-6 pt-28 pb-40">
+        <h1 class="text-5xl font-bold leading-tight mb-6">
+            我在学做网页
+        </h1>
+        <p class="text-base text-gray-600 mb-2">
+            前端初学者。2026 年 10 月开始，一个人从零写起。
         </p>
+        <p class="text-base text-gray-600">
+            目前做完了两个项目，正在做第三个。
+        </p>
+        <a href="works.html"
+           class="inline-block mt-10 px-7 py-3 text-sm text-white bg-black rounded-full hover:opacity-75 transition-opacity">
+            看我的作品 →
+        </a>
     </main>
 
 </body>

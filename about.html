@@ -5,35 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>炒鸡坤 · 关于</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-[#fafafa] text-[#222] antialiased">
 
-    <nav class="nav">
-        <a class="brand" href="index.html">炒鸡坤</a>
-        <div class="links">
-            <a href="index.html">首页</a>
-            <a href="works.html">作品</a>
-            <a href="about.html" class="active">关于</a>
-            <a href="contact.html">联系</a>
+    <nav class="max-w-4xl mx-auto px-6 py-6 flex items-center justify-between border-b border-gray-200">
+        <a href="index.html" class="text-lg font-bold tracking-wide">炒鸡坤</a>
+        <div class="flex gap-7 text-sm text-gray-500">
+            <a href="index.html" class="hover:text-black transition-colors">首页</a>
+            <a href="works.html" class="hover:text-black transition-colors">作品</a>
+            <a href="about.html" class="text-black font-semibold">关于</a>
+            <a href="contact.html" class="hover:text-black transition-colors">联系</a>
         </div>
     </nav>
 
-    <main class="page">
-        <h1>关于我</h1>
+    <main class="max-w-4xl mx-auto px-6 pt-20 pb-32">
 
-        <p>2026 年 10 月 17 日开始学写网页。不是课程作业，是为了提升自己。</p>
+        <h1 class="text-4xl font-bold mb-8">关于我</h1>
 
-        <h2 class="sub">我在学什么</h2>
-        <ul class="list">
+        <p class="text-base text-gray-600 leading-relaxed mb-4">
+            2026 年 10 月 17 日开始学写网页。不是课程作业，是为了提升自己。
+        </p>
+
+        <h2 class="text-xl font-semibold mt-12 mb-4">我在学什么</h2>
+        <ul class="space-y-2 text-base text-gray-600">
             <li>HTML / CSS —— 正在练布局</li>
             <li>Git / GitHub —— 每天提交</li>
             <li>JavaScript —— 刚入门</li>
         </ul>
 
-        <h2 class="sub">接下来</h2>
-        <p>把作品集站做完，然后学 JavaScript 做真正的交互。</p>
+        <h2 class="text-xl font-semibold mt-12 mb-4">接下来</h2>
+        <p class="text-base text-gray-600 leading-relaxed">
+            把作品集站做完，然后学 JavaScript 做真正的交互。
+        </p>
 
-        <p class="note">提升到一个可以拿得出手的程度</p>
+        <p class="text-sm text-gray-400 mt-12">
+            提升到一个可以拿得出手的程度
+        </p>
+
     </main>
 
 </body>
